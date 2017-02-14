@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <cn.circlecounttimesplash.com.view.CountTimeProgressView
+            android:id="@+id/countTimeProgressView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            />
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Shape Type:" />
+
+            <TextView
+                android:id="@+id/tv_countTime_style"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="Click me to change countTime style"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Count Time:" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Start Angle:" />
+
+        <LinearLayout style="@style/Linear_common"
+            android:layout_height="64dp">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Ball Flag" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common"
+            android:layout_height="64dp">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Clockwise" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Ball Width" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Ball Color:" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Border Width" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Bottom Color:" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Draw Color:" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Linear_common">
+
+            <TextView
+                style="@style/TextView_left"
+                android:text="Background Color:" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

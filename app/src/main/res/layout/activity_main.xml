@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/peaty" />
+
+    <cn.circlecounttimesplash.com.view.CountTimeProgressView
+        android:id="@+id/countTimeProgressView"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentRight="true"
+        app:background_Color="#FF7F00"
+        app:borderWidth="4dp"
+        app:borderBottomColor="#D60000"
+        app:borderDrawColor="#CDC8EA"
+        app:markBallFlag="true"
+        app:markBallWidth="2dp"
+        app:titleCenterColor="#000000"
+        app:titleCenter="跳过"
+        app:titleCenterSize="14sp"
+        app:countTime="5000"
+        app:textStyle="jump"
+        app:clockwise="true"
+        />
+
+</RelativeLayout>

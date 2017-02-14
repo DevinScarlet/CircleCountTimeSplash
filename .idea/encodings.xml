@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/circlecounttimesplash/com/activity/SimpleActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/circlecounttimesplash/com/view/CountTimeProgressView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_simple.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/peaty.jpg" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
